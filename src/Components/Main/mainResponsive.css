@@ -1,0 +1,298 @@
+@media only screen and (max-width:1210px){
+    .main{
+        padding: 0 10px;
+    }
+    .mainContactCard{
+        gap: 35px;
+    }
+    .mainContactDesc {
+        width: 100%;
+    }
+    .mainContactDesc h1{
+        font-size: 64px;
+    }
+    .mainContactDesc .descSpan {
+        font-size: 15px;
+    }
+    
+    .mainContactInputs .mainInput{
+        width: 450px;
+    }
+    .mainContactInputs .inputBtn{
+        width: 450px;
+    }
+    .mainImg{
+        height: 100%;
+        position: absolute; 
+        right: 0px;
+        bottom: 0px;
+        z-index: 1;
+    }
+    .mainImg img{
+        width: 700px;
+    }
+    .mainIm2{
+        bottom: 65px;
+        right: 120px;
+    }
+}
+
+@media only screen and (max-width:1020px){
+    .mainTitleName h1{
+        font-size: 90px;
+    }
+    .mainTitleName h4{
+        font-size: 60px;
+    }
+    .mainDesc{
+        font-size: 20px;
+    }
+    .mainBtn {
+        width: 300px;
+        height: 65px;
+    }
+    .mainContactCard {
+        padding:40px;
+    }
+    .mainContactInfo .mainInfo .mainInfoSpan{
+        font-size: 15px;
+    }
+    .mainIm2{
+        bottom: 65px;
+        right: 120px;
+    }
+}
+@media only screen and (max-width:998px){
+    .mainImg{
+        height: 100%;
+        position: absolute; 
+        right: 0px;
+        bottom: -100px;
+        z-index: 1;
+    }
+    .mainImg img{
+        width: 600px;
+    }
+}
+@media only screen and (max-width:976px){
+    .mainIm2{
+        bottom: 110px;
+        right: 130px;
+    }
+    .mainIm2 img{
+        width: 225px;
+    }
+    .degreeCard span {
+        font-size: 13px;
+    }
+    .informationDesc p{
+        font-size: 12px;
+    }
+    .mainInformationImg img {
+        width: 475px;
+    }
+    .mainButton {
+        width: 150px;
+        font-size: 15px;
+    }
+    .mainContactDesc h1 {
+        font-size: 55px;
+    }
+    .mainContactDesc .descSpan{
+        font-size: 13px;
+    }
+    .mainContactInfo .mainInfo .mainInfoSpan{
+        font-size: 13px;
+        font-weight: normal;
+    }
+    .mainContactInputs .mainInput {
+        width: 380px;
+    }
+    .mainContactInputs .inputBtn{
+        width: 380px;
+    }
+}
+@media only screen and (max-width:856px){
+    .mainTop{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 50px;
+        gap: 60px;
+    }
+    .mainTitle{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .mainResponsiveImg img{
+        display: block;
+        width: 500px;
+    }
+    .mainIm2, .mainImg, .mainIm3{
+        display: none;
+    }
+    .mainInformations {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainInformation{
+        width: 100%;
+    }
+    .informationDesc p{
+        font-size: 15px;
+    }
+    .degreeCard span{
+        font-size: 15px;
+    }
+
+    .mainInformationImg{
+        width: 100%;
+    }
+    .mainContactCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .mainContactDesc{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .mainContactDesc h1{
+        font-size: 65px;
+    }
+    .mainContactDesc .descSpan {
+        font-size: 15px;
+    }
+    .mainContactInfo .mainInfo .mainInfoSpan{
+        font-size: 15px;
+    }
+    .mainInformationImg{
+        display: none;
+    }
+    .mainContactInputs{
+        width: 100%;
+    }
+    .mainContactInputs .mainInput{
+        width: 100%;
+    }
+    .mainContactInputs .inputBtn {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:512px){
+    .mainResponsiveImg img{
+        width: 400px;
+    }
+    .mainTitleName h1{
+        font-size: 70px;
+    }
+    .mainTitleName h4{
+        font-size: 45px;
+    }
+    .mainDesc{
+        font-family: Inter;
+        font-size: 18px;
+    }
+    
+    .mainInformationTitle{
+        text-align: center;
+    }
+    .informationDesc{
+        text-align: center;
+    }
+    .degreeCard{
+        display: flex;
+        flex-direction: column;
+    }
+    .degreeCard span{
+        text-align: center;
+    }
+    .mainMenuLink{
+        display: none;
+    }
+    .mainMenuCard h5{
+        font-size: 24px;
+    }
+    .mainMenuBottom span{
+        font-size: 18px;
+    }
+    .mainMenuBottom button{
+        width: 105px;
+        padding: 10px;
+    }
+    .mainMenuBottom {
+        padding: 8px 15px 0px 15px;
+    }
+    .mainContactDesc h1 {
+        font-size: 42px;
+    }
+    .loedMore{
+        display: none;
+    }
+    .linkToMenu{
+        padding: 0px 10px;
+        display: block;
+    }
+    .linkToMenus{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 21px;
+    }
+}
+@media only screen and (max-width:400px){
+    .mainTitleName h1{
+        font-size: 55px;
+    }
+    .mainTitleName h4 {
+        font-size: 32px;
+    }
+    .mainDesc{
+        font-size: 13px;
+    }
+    .mainBtn{
+        width: 270px;
+    }
+    .mainBtn button{
+        font-size: 17px;
+        font-weight: normal;
+    }
+    .mainResponsiveImg img{
+        width: 300px;
+    }
+    .mainContactDesc .descSpan{
+        font-size: 13px;
+    }
+    .mainContactInfo{
+        gap: 10px;
+    }
+    .mainContactInfo .mainInfo .mainInfoSpan {
+        font-size: 11px;
+        font-weight: normal;
+    }
+    .mainContactCard{
+        padding: 20px;
+    }
+    .linkToMenus{
+        font-size: 16px;
+    }
+    .mainContactInputs .mainInput{
+        height: 70px;
+    }
+    .mainContactInputs .inputBtn{
+        height: 70px;
+    }
+}

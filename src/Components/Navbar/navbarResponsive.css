@@ -1,0 +1,20 @@
+@media only screen and (max-width:1210px){
+    .navbar{
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width:998px){
+    .burgerMenu{
+        display: block;
+    }
+    .navbarContcats{
+        display: none;
+    }
+    .navbarLinks{
+        display: none;
+    }
+    .navbarChoppingCart{
+        display: none;
+    }
+}

@@ -1,0 +1,141 @@
+@media only screen and (max-width:1210px){
+    .galleryMain{
+        padding: 0 10px;
+    }
+    .galleryImg img {
+        width: 350px;
+        height: 370px;
+        object-fit: cover;
+    }
+    .galleryContact{
+        gap: 35px;
+    }
+    .galleryContactDesc {
+        width: 100%;
+    }
+    .galleryContactDesc h1{
+        font-size: 64px;
+    }
+    .galleryContactDesc .descSpan {
+        font-size: 15px;
+    }
+    
+    .galleryContactInputs .galleryInput{
+        width: 450px;
+    }
+    .galleryContactInputs .inputBtn{
+        width: 450px;
+    }
+}
+@media only screen and (max-width:1090px){
+    .gallery{
+        padding-top: 100px;
+    }
+    .galleryLeftImages, .galleryMainImages, .galleryRightImages{
+        display: none;
+    }
+    .leadMoreResponsiveImages{
+        
+    }
+    .leadMoreResTitle{
+        display: block;
+    }
+    .galleryImg2{
+        display: block;
+    }
+    .galleryShowMoreBtn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:1020px){
+    .galleryContactCard {
+        padding:40px;
+    }
+    .galleryContactInfo .galleryInfo span{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:976px){
+    .galleryContactDesc h1 {
+        font-size: 55px;
+    }
+    .galleryContactDesc .descSpan{
+        font-size: 13px;
+    }
+    .galleryContactInfo .galleryInfo span{
+        font-size: 13px;
+        font-weight: normal;
+    }
+    .galleryContactInputs .galleryInput {
+        width: 380px;
+    }
+    .galleryContactInputs .inputBtn{
+        width: 380px;
+    }
+}
+
+@media only screen and (max-width:856px){
+    .galleryContactCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 45px;
+    }
+    .galleryContactDesc{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .galleryContactDesc h1{
+        font-size: 65px;
+    }
+    .galleryContactDesc .descSpan {
+        font-size: 15px;
+    }
+    .galleryContactInfo .galleryInfo span{
+        font-size: 15px;
+    }
+    
+    .galleryContactInputs{
+        width: 100%;
+    }
+    .galleryContactInputs .galleryInput{
+        width: 100%;
+    }
+    .galleryContactInputs .inputBtn {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:512px){
+    .galleryContactDesc h1 {
+        font-size: 42px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .informationContactDesc .descSpan{
+        font-size: 13px;
+    }
+    .galleryContactInfo{
+        gap: 10px;
+    }
+    .galleryContactInfo .galleryInfo span {
+        font-size: 11px;
+        font-weight: normal;
+    }
+    .galleryContactCard{
+        padding: 20px;
+    }
+    .galleryContactInputs .galleryInput{
+        height: 70px;
+    }
+    .galleryContactInputs .inputBtn{
+        height: 70px;
+    }
+}

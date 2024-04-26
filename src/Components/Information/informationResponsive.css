@@ -1,0 +1,180 @@
+@media only screen and (max-width:1210px){
+    .information{
+        padding: 0 10px;
+    }
+    .informationContact{
+        gap: 35px;
+    }
+    .informationContactDesc {
+        width: 100%;
+    }
+    .informationContactDesc h1{
+        font-size: 64px;
+    }
+    .informationContactDesc .descSpan {
+        font-size: 15px;
+    }
+    
+    .informationContactInputs .informationInput{
+        width: 450px;
+    }
+    .informationContactInputs .inputBtn{
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width:1110px){
+    .informationCards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+    
+}
+@media only screen and (max-width:1020px){
+    .informationContactCard {
+        padding:40px;
+    }
+    .informationContactInfo .informationInfo span{
+        font-size: 15px;
+    }
+}
+
+
+
+@media only screen and (max-width:976px){
+    .informationContactDesc h1 {
+        font-size: 55px;
+    }
+    .informationContactDesc .descSpan{
+        font-size: 13px;
+    }
+    .informationContactInfo .informationInfo span{
+        font-size: 13px;
+        font-weight: normal;
+    }
+    .informationContactInputs .informationInput {
+        width: 380px;
+    }
+    .informationContactInputs .inputBtn{
+        width: 380px;
+    }
+}
+
+
+@media only screen and (max-width:856px){
+    .informationPrimary{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        gap: 40px;
+        padding-top: 170px;
+    }
+    .informationMain{
+        width: 100%;
+        height: 100%;
+        background-image: none;
+    }
+    .informationPrimaryDesc {
+        width: 100%;
+    }
+    .informationImg2{
+        width: 100%;
+        display: block;
+    }
+    .informationImg2 img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .informationContactCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 45px;
+    }
+    .informationContactDesc{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .informationContactDesc h1{
+        font-size: 65px;
+    }
+    .informationContactDesc .descSpan {
+        font-size: 15px;
+    }
+    .informationContactInfo .informationInfo span{
+        font-size: 15px;
+    }
+    
+    .informationContactInputs{
+        width: 100%;
+    }
+    .informationContactInputs .informationInput{
+        width: 100%;
+    }
+    .informationContactInputs .inputBtn {
+        width: 100%;
+    }
+    .slider1{
+        display: none;
+    }
+    .slider2{
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width:512px){
+    .informationContactDesc h1 {
+        font-size: 42px;
+    }
+}
+@media only screen and (max-width:450px){
+    .informationPrimaryDesc h1{
+        font-size: 52px;
+    }
+    .informationParagraph p{
+        font-size: 12px;
+    }
+    .slidesTitle{
+        font-size: 55px;
+        text-align: center;
+    }
+    .sliderDiv{
+        width: 100%;
+        height: 400px;
+    }
+    .slick-dots li button:before{
+        font-size: 20px;
+    }
+    .slick-dots li{
+        margin: 0 7px;
+    }
+}
+@media only screen and (max-width:400px){
+    .informationContactDesc .descSpan{
+        font-size: 13px;
+    }
+    .informationContactInfo{
+        gap: 10px;
+    }
+    .informationContactInfo .informationInfo span {
+        font-size: 11px;
+        font-weight: normal;
+    }
+    .informationContactCard{
+        padding: 20px;
+    }
+    .informationContactInputs .informationInput{
+        height: 70px;
+    }
+    .informationContactInputs .inputBtn{
+        height: 70px;
+    }
+}

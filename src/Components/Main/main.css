@@ -1,0 +1,463 @@
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainTop{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.mainTitle{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 120px;
+}
+.mainTitleName{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.mainTitleName h1{
+    font-size: 110px;
+    font-family: Cormorant,Garamond;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.mainTitleName h4{
+    font-size: 80px;
+    font-family: Cormorant,Garamond;
+    color: #fff;
+    font-weight: 400;
+}
+.mainDesc{
+    font-size: 23px;
+    color:rgba(225, 225, 225, 1);
+    font-weight: 300;
+    font-family: Inter;
+    letter-spacing: 1px;
+}
+
+.mainBtn{
+    width: 310px;
+    height: 65px;
+    background-color: rgba(255, 114, 0, 0.85);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: rgba(255, 114, 0, 0.85) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;    
+    transition: transform .2s 0s ease;
+}
+    
+.mainBtn:hover{
+    transform: scale(.95);
+}
+
+.mainBtn button{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.mainImg{
+    height: 100%;
+    position: absolute; 
+    right: 0px;
+    bottom: 50px;
+    z-index: 1;
+}
+
+.mainIm2{
+    position: absolute;
+    bottom: -100px;
+    right: 300px;
+    z-index: 1;
+}
+.mainIm3{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 0;
+}
+.mainResponsiveImg img{
+    display: none;
+}
+
+.mainInformations{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 300px;
+}
+
+.mainInformation{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mainInformationTitle{
+    font-size: 60px;
+    color: #fff;
+    font-family: Cormorant,Garamond;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.informationDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.informationDesc p{
+    color: rgba(220, 221, 223, 1);
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.degree{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.degrees{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.degreeCard{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.degreeCard span{
+    font-size: 18px;
+    color: #fff;
+    font-family: Inter;
+    font-weight: 400;
+}
+.mainInformationImg{
+    /* width: 50%; */
+    padding-top: 50px;
+}
+.mainInformationImg img{
+    width: 550px;
+}
+
+.mainMenu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding-top: 100px;
+}
+
+.mainMenuTitle{
+    text-align: center;
+    font-family: Cormorant,Garamond;
+    font-size: 60px;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+
+.mainMenuLink {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mainButton{
+    width: 170px;
+    height: 50px;
+    padding:0px 10px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 30px;
+    border:  1px solid rgba(109, 109, 110, 1);
+    background-color: transparent;
+    cursor: pointer;
+    color: #fff;
+    font-family: Cormorant,Garamond;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.mainButton:hover{
+    border: 2px solid rgba(239, 102, 2, 1);
+    box-shadow:rgba(239, 102, 2, 1) 0px 1px 2px, rgba(239, 102, 2, 1) 0px 2px 2px, rgba(239, 102, 2, 1) 0px 0px 0px, rgba(239, 102, 2, 1) 0px 3px 10px, rgba(239, 102, 2, 1) 0px 0px 12px, rgba(239, 102, 2, 1) 0px 0px 16px
+}
+
+.mainMenuCards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 4fr));
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.mainMenuCard{
+    /* width: 275px; */
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(217, 217, 217, 0.295);
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.mainMenuCard img{
+    width: 100%;
+    height: 65%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+.mainMenuCard h5{
+    padding: 10px 15px 3px 15px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 300;
+}
+.menuW{
+    padding: 0 15px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-weight: 300;
+}
+.mainMenuBottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px 0px 15px;
+}
+
+.mainMenuBottom span{
+    color: rgba(225, 225, 225, 1);
+    font-family: Inter;
+    font-weight: 600;
+}
+.mainMenuBottom button{
+    width:90px;
+    padding:  7px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgba(239, 102, 2, 1);
+    color: #fff;
+    font-family: Inter;
+    font-weight: 300;
+    cursor: pointer;
+}
+.mainMenuBottom button:active{
+    transform: scale(.96);
+}
+.loedMore{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainMenuNewPage{
+    width: 280px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.mainMenuNewPage span{
+    font-size: 35px;
+    color: #fff;
+    font-family: Cormorant,Garamond;
+    font-weight: 300;
+}
+.mainPageIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chevronIcon{
+    width: 30px;
+    height: 40px;
+}
+
+.mainContact{
+    width: 100%;
+    padding: 200px 0 100px 0;
+}
+.mainContactCard{
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #2e2f30;    
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 70px;
+}
+
+.mainContactDesc{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mainContactDesc h1{
+    font-size: 70px;
+    color: #fff;
+    font-family: Cormorant,Garamond;
+}
+.descSpan{
+    font-size: 18px;
+    color: #fff;
+    font-family: Inter;
+    font-weight: 200;
+}
+
+.mainContactInfo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.mainContactIcon{
+    width: 30px;
+    height: 30px;
+    color: rgba(239, 102, 2, 1);
+}
+
+.mainInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.mainInfo .mainInfoSpan{
+    font-size: 18px;
+    color: #fff;
+    font-family: Inter;
+}
+
+.mainContactInputs{
+    /* width: 50%; */
+}
+
+.mainContactInputs form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.mainContactInputs .mainInput{
+    width: 500px;
+    height: 100px;
+    padding: 0 30px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+
+.inputBtn{
+    width: 500px;
+    height: 100px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgba(255, 114, 0, 0.85);
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(255, 114, 0, 0.85) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;    
+    transition: transform .2s 0s ease;
+}
+    
+.inputBtn:hover{
+    transform: scale(.95);
+}
+
+.slider{
+    width: 100%;
+    padding-top: 100px;
+    display: none;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+  
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.linkToMenu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.linkToMenus{
+    color: #fff;
+    padding: 20px 35px;
+    border-radius: 50px;
+    border: 2px solid rgba(109, 109, 110, 1);
+    font-size: 25px;
+    font-family: Inter;
+    cursor: pointer;
+}

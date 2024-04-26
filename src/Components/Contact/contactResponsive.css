@@ -1,0 +1,84 @@
+@media only screen and (max-width:1210px){
+    .contact{
+        padding: 200px 10px 100px 10px;
+    }
+}
+
+@media only screen and (max-width:1120px){
+    .contactDesc h1{
+        font-size: 40px;
+    }
+    .contactImg img {
+        width: 365px;
+        height: 365px;
+    }
+    .contactInfoTitle span {
+        font-size: 13px;
+    }
+    .contactDesc p {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:930px){
+    .contactMain{
+        padding: 20px;
+    }
+}
+@media only screen and (max-width:840px){
+    .contactMain{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 0;
+        border-radius: 37px;
+    }
+    .contactDesc h1{
+        font-size: 50px;
+    }
+    .contactDesc p{
+        font-size: 16px;
+    }
+    .contactInfoTitle span{
+        font-size: 15px;
+    }
+    .contactDesc{
+        padding: 30px;
+    }
+    .contactImg img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (max-width:510px){
+    .contactDesc h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .contactDesc p{
+        width: 100%;
+        text-align: center;
+    }
+    .contactInfoTitle span {
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-width:380px){
+    .contactDesc{
+        padding: 20px 15px;
+    }
+    .contactDesc h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .contactDesc p{
+        width: 100%;
+        text-align: center;
+        font-size: 13px;
+    }
+    .contactInfoTitle span {
+        font-size: 10px;
+    }
+}

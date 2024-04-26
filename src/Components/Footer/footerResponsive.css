@@ -1,0 +1,21 @@
+@media only screen and (max-width:1210px){
+    .footerMain{
+        padding:  10px;
+    }
+}
+@media only screen and (max-width:998px){
+    .footerLinks{
+        display: none;
+    }
+}
+@media only screen and (max-width:512px){
+    .footerMain{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 20px;
+    }
+    .FooterInformations{
+        gap: 10px;
+    }
+}

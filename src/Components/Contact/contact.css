@@ -1,0 +1,63 @@
+
+.contact{
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.contactMain{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #2e2f30;  
+    border-radius: 15px;
+    padding: 35px 50px;
+}
+
+.contactDesc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+}
+.contactDesc h1{
+    font-size: 58px;
+    font-family: Cormorant,Garamond;
+    color: #fff;
+    font-weight: 400;
+}
+.contactDesc p{
+    width: 70%;
+    font-size:16px;
+    letter-spacing: 1px;
+    font-family: Inter;
+    color: rgba(220, 221, 223, 1);
+    font-weight: 200;
+}
+.contactImg img{
+    width: 400px;
+    height: 400px;
+}
+.contactInfo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contactIcons{
+    width: 30px;
+    height: 30px;
+    color: rgba(230, 120, 63, 1);
+}
+.contactInfoTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.contactInfoTitle span{
+    color: #fff;
+    font-family: Inter;
+    font-weight: 400;
+    letter-spacing: 1px;
+}

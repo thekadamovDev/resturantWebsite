@@ -1,0 +1,68 @@
+
+footer{
+    width: 100%;
+    border-top: 1px solid rgba(239, 102, 2, 1);
+    margin-top: 30px;
+}
+
+.footerMain{
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.footerLinks .ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.footerLinks .ul li a{
+    position: relative;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    font-weight: 300;
+}
+
+.ul li a:hover{
+    color: rgba(217, 120, 42, 1);
+  }
+  
+  .footerLinks ul li a:hover::before{
+    transform: scaleX(1);
+  }
+  .footerLinks ul li a::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background:  rgba(217, 120, 42, 1);
+    left: 0;
+    transition: transform .3s ease;
+    transform: scaleX(0);
+    transform-origin: right;
+    bottom: -4px;
+  }
+
+.FooterInformations{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 20px;
+}
+.footerInfoCont{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.phoneIcon{
+    color: rgba(230, 120, 63, 1);
+}
+.FooterInformations span{
+    color: #fff;
+    font-family: Inter, sans-serif;
+    letter-spacing: 1px;
+}

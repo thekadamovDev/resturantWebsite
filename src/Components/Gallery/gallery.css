@@ -1,0 +1,194 @@
+
+.gallery{
+    width: 100%;
+    /* align-items: center; */
+    padding-top: 200px;
+}
+.galleryMain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.galleryMain2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.galleryLeftImages,
+.galleryRightImages{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.galleryMainImages h1{
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    font-family: Cormorant,Garamond;
+    padding-bottom: 30px;
+}
+.galleryMainImages{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.galleryImg img{
+    width: 380px;
+    height: 420px;
+    border-radius: 15px;
+}
+.galleryImg2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.galleryContact{
+    width: 100%;
+    padding: 200px 0 100px 0;
+}
+.galleryContactCard{
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #2e2f30;    
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 70px;
+}
+
+.galleryContactDesc{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.galleryContactDesc h1{
+    font-size: 70px;
+    color: #fff;
+    font-family: Cormorant,Garamond;
+}
+.descSpan{
+    font-size: 18px;
+    color: #fff;
+    font-family: Inter;
+    font-weight: 200;
+}
+
+.galleryContactInfo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.galleryContactIcon{
+    width: 30px;
+    height: 30px;
+    color: rgba(239, 102, 2, 1);
+}
+
+.galleryInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.galleryInfo span{
+    font-size: 18px;
+    color: #fff;
+    font-family: Inter;
+}
+
+.galleryContactInputs{
+    /* width: 50%; */
+}
+
+.galleryContactInputs form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.galleryContactInputs .galleryInput{
+    width: 500px;
+    height: 100px;
+    padding: 0 30px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+
+.inputBtn{
+    width: 500px;
+    height: 100px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgba(255, 114, 0, 0.85);
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(255, 114, 0, 0.85) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;    
+    transition: transform .2s 0s ease;
+}
+    
+.inputBtn:hover{
+    transform: scale(.95);
+}
+.leadMoreResponsiveImages{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.leadMoreResImg{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 4fr));
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.leadMoreResTitle{
+    font-size: 70px;
+    font-family: Cormorant,Garamond;
+    color: #fff;
+    display: none;
+}
+.galleryImg2{
+    display: none;
+}
+.galleryShowMoreBtn{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.galleryShowMoreBtn{
+    display: none;
+}
+.galleryShowMoreBtn button{
+    width: 300px;
+    font-size: 25px;
+    padding: 15px 0;
+    background-color: transparent;
+    border-radius: 30px;
+    font-weight: 300;
+    color: #fff;
+    font-family: Inter;
+    border:  2px solid rgba(109, 109, 110, 1);
+    cursor: pointer;
+} 
+.galleryShowMoreBtn button:hover{
+    transform: scale(.95);
+}
